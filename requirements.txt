@@ -1,0 +1,64 @@
+# ============================================================================
+# AUDITSENSE PRO - REQUIREMENTS
+# Version: 3.8 (Final Stable)
+# Python: 3.8+
+# ============================================================================
+
+# Core Framework
+streamlit>=1.28.0
+
+# Data Processing
+pandas>=2.0.0
+
+# Excel Support
+openpyxl>=3.1.0        # For reading .xlsx files
+xlsxwriter>=3.1.0      # For writing formatted Excel files
+
+# Image Processing
+Pillow>=10.0.0         # For logo processing (base64 encoding)
+
+# ============================================================================
+# OPTIONAL DEPENDENCIES (for advanced features)
+# ============================================================================
+
+# If you want better performance:
+# numpy>=1.24.0
+
+# If you want to add charts in future:
+# plotly>=5.14.0
+# matplotlib>=3.7.0
+
+# If you want to add more data formats:
+# pyarrow>=12.0.0      # For Parquet files
+# fastparquet>=2023.4.0
+
+# ============================================================================
+# DEVELOPMENT DEPENDENCIES (only for developers)
+# ============================================================================
+
+# Uncomment if you're developing:
+# pytest>=7.3.0         # Testing
+# black>=23.3.0         # Code formatting
+# flake8>=6.0.0         # Linting
+# mypy>=1.3.0           # Type checking
+
+# ============================================================================
+# NOTES
+# ============================================================================
+# 
+# Installation:
+#   pip install -r requirements.txt
+#
+# Or with specific versions:
+#   pip install -r requirements.txt --upgrade
+#
+# Create virtual environment first (recommended):
+#   python -m venv venv
+#   source venv/bin/activate  # Linux/Mac
+#   venv\Scripts\activate     # Windows
+#   pip install -r requirements.txt
+#
+# Freeze current environment:
+#   pip freeze > requirements_frozen.txt
+#
+# ============================================================================

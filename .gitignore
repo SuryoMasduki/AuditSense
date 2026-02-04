@@ -1,0 +1,51 @@
+# Byte-compiled / Optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / Packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments (PENTING)
+venv/
+env/
+ENV/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Excel & Data Files (PENTING: Agar data audit asli tidak ke-upload)
+*.xlsx
+*.xls
+*.csv
+*.pdf
+
+# Kecuali file dummy (kita izinkan dummy ter-upload buat contoh)
+!*_dummy.xlsx
+!sample_*.xlsx
+
+# OS specific files
+.DS_Store
+Thumbs.db
